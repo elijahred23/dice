@@ -1,9 +1,11 @@
 import './App.css';
+import Die from './Die.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Die rolling={true} face="one"/>
+      <h1>Hello</h1>
     </div>
   );
 }
